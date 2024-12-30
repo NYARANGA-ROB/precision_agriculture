@@ -21,7 +21,7 @@ from utils.model import ResNet9
 from utils.fertilizer import fertilizer_dic
 from utils.disease import disease_dic
 
-# -------------------------LOADING THE TRAINED MODELS -----------------------------------------------
+# -------------------------LOADING THE TRAINED MODELS ------------------------------------------
 
 # Loading crop recommendation model
 crop_recommendation_model_path = 'models/RandomForest.pkl'
