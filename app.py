@@ -179,7 +179,6 @@ class ContactUs(db.Model):
     def __repr__(self) -> str:
         return f"{self.sno} - {self.title}"
 
-
 @app.route("/")
 def hello_world():
     return render_template("index.html")
