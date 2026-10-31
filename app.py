@@ -78,7 +78,6 @@ disease_model.load_state_dict(torch.load(
 disease_model.eval()
 
 
-
 def weather_fetch(city_name):
     """
     Fetch and returns the temperature and humidity of a city
