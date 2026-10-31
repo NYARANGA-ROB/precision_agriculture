@@ -22,6 +22,7 @@ from utils.fertilizer import fertilizer_dic
 from utils.disease import disease_dic
 
 
+
 # -------------------------LOADING THE TRAINED MODELS ------------------------------------------
 
 # Loading crop recommendation model
